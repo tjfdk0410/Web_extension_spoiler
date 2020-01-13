@@ -1,0 +1,8 @@
+  // "app": {
+  //   "urls": ["http://certification.googleapps.com/app-info/"],
+  //   "launch": {
+  //     "web_url": "http://certification.googleapps.com/"
+  //     }
+  //   },
+
+  manifest.json
