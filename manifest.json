@@ -26,14 +26,6 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-
-  "content_scripts": [{
-    "all_frames": true,
-    "match_about_blank": true,
-    "matches": ["<all_urls>"],
-    "js": ["script.js"],
-    "run_at": "document_idle"
-  }],
   
   "permissions": [
     "storage",
@@ -45,7 +37,8 @@
     "https://*/*",
     "http://*/*",
     "<all_urls>",
-    "tabs"
+    "tabs",
+    "*://*.google.com/"
   ],
    
   "homepage_url" : "https://spoiler.org",
